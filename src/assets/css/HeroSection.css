@@ -1,0 +1,114 @@
+.titleHeroSection {
+    padding: 25px;
+}
+
+.heroSection {
+    /* padding: 25px; */
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: -5%;
+    margin: 25px 40px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 30px;
+}
+
+.card {
+    margin-top: 20px; /* Margin atas untuk card */
+    border-radius: 10px; /* Sudut bulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    height: 10vh;/* Shadow effect */
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px; /* Sudut bulat kiri atas */
+    border-top-right-radius: 10px; /* Sudut bulat kanan atas */
+  }
+
+  img {
+    padding: 25px;
+  }
+  
+  .card-body {
+    padding: 20px; /* Padding bagian dalam card body */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Ukuran font judul */
+  }
+  
+  .card-text {
+    color: #555; /* Warna teks */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    border-color: #007bff; /* Warna border tombol */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+    border-color: #0056b3; /* Warna border tombol saat dihover */
+  }
+
+  @media screen and (max-width: 768px) {
+    .titleHeroSection {
+        padding: 15px;
+    }
+    
+    .heroSection {
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: -5%;
+    }
+    
+    h1 {
+        width: 100%;
+    }
+    
+    .card {
+        margin-top: 20px; /* Margin atas untuk card */
+        border-radius: 10px; /* Sudut bulat */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+      }
+      
+      .card-img-top {
+        border-top-left-radius: 10px; /* Sudut bulat kiri atas */
+        border-top-right-radius: 10px; /* Sudut bulat kanan atas */
+      }
+    
+      img {
+        padding: 20px;
+      }
+      
+      .card-body {
+        padding: 20px; /* Padding bagian dalam card body */
+      }
+      
+      .card-title {
+        font-size: 1.5rem; /* Ukuran font judul */
+      }
+      
+      .card-text {
+        color: #555; /* Warna teks */
+      }
+      
+      .btn-primary {
+        background-color: #007bff; /* Warna latar belakang tombol */
+        border-color: #007bff; /* Warna border tombol */
+      }
+      
+      .btn-primary:hover {
+        background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+        border-color: #0056b3; /* Warna border tombol saat dihover */
+      }
+  }

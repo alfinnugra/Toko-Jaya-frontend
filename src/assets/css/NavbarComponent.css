@@ -1,0 +1,53 @@
+header {
+    /* background-color: red; */
+    padding: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    color: #010101;
+}
+
+.navbar-brand span {
+    color:#cac9c6;
+}
+
+.navbarlink {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.navbarlink a {
+    text-decoration: none;
+    color: #333; /* Warna link */
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.navbarlink a:last-child {
+    margin-right: 0;
+}
+
+.navLinks {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #010101;
+    margin-right: 20px;
+}
+
+.breakline hr {
+    margin: 25px;
+    margin-top: -10px;
+    color: #a4a4a4;
+    font-weight: 400;
+}

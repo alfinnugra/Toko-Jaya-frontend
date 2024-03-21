@@ -1,0 +1,45 @@
+.imgProduct {
+    width: 400px;
+}
+
+.card-body {
+    margin: 3rem;
+}
+
+.card-price {
+    font-size: 100px;
+}
+
+.button {
+    padding: 10px;
+}
+
+button {
+    padding: 20px;
+    background-color: #BFEA7C;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .detailsProduct {
+        padding: 0;
+        margin: 0;
+    }
+
+    .imgProduct {
+        width: 350px;
+        height: 50vh;
+    }
+
+    .card-body {
+        margin-top: 10px; 
+        margin: -1px;
+    }
+
+    .card-price {
+        font-size: 50px;
+    }
+}
